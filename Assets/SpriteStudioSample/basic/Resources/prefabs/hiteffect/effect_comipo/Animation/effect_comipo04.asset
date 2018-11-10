@@ -1,0 +1,1112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8146f12f552f861448ab623a551361dd, type: 3}
+  m_Name: effect_comipo04
+  m_EditorClassIdentifier: 
+  ListDataParts:
+  - Name: root
+    ID: 0
+    IDParent: -1
+    ListIDChild: 0100000002000000030000000400000005000000
+    Kind: 0
+    KindBlendTarget: 1
+    KindLabelColor: 0
+    KindShapeCollision: 0
+    SizeCollisionZ: 0
+    PrefabUnderControl: {fileID: 0}
+    NameAnimationUnderControl: 
+  - Name: Rises
+    ID: 1
+    IDParent: 0
+    ListIDChild: 
+    Kind: 3
+    KindBlendTarget: 2
+    KindLabelColor: 0
+    KindShapeCollision: 0
+    SizeCollisionZ: 0
+    PrefabUnderControl: {fileID: 0}
+    NameAnimationUnderControl: 
+  - Name: Rises_1
+    ID: 2
+    IDParent: 0
+    ListIDChild: 
+    Kind: 3
+    KindBlendTarget: 2
+    KindLabelColor: 0
+    KindShapeCollision: 0
+    SizeCollisionZ: 0
+    PrefabUnderControl: {fileID: 0}
+    NameAnimationUnderControl: 
+  - Name: Rises_1_1
+    ID: 3
+    IDParent: 0
+    ListIDChild: 
+    Kind: 3
+    KindBlendTarget: 2
+    KindLabelColor: 0
+    KindShapeCollision: 0
+    SizeCollisionZ: 0
+    PrefabUnderControl: {fileID: 0}
+    NameAnimationUnderControl: 
+  - Name: Ripple
+    ID: 4
+    IDParent: 0
+    ListIDChild: 
+    Kind: 2
+    KindBlendTarget: 2
+    KindLabelColor: 0
+    KindShapeCollision: 0
+    SizeCollisionZ: 0
+    PrefabUnderControl: {fileID: 0}
+    NameAnimationUnderControl: 
+  - Name: Aurora
+    ID: 5
+    IDParent: 0
+    ListIDChild: 
+    Kind: 3
+    KindBlendTarget: 2
+    KindLabelColor: 0
+    KindShapeCollision: 0
+    SizeCollisionZ: 0
+    PrefabUnderControl: {fileID: 0}
+    NameAnimationUnderControl: 
+  ListDataAnimation:
+  - Name: anime_1
+    FramePerSecond: 30
+    CountFrame: 11
+    ListLabel: []
+    ListAnimationParts:
+    - KindFormat: 1
+      StatusParts: 0
+      Status:
+        ListStatus: 00000000
+        ListValue:
+        - Flags: 65537
+      Position:
+        ListStatus: 
+        ListValue: []
+      Rotation:
+        ListStatus: 
+        ListValue: []
+      Scaling:
+        ListStatus: 
+      RateOpacity:
+        ListStatus: 
+        ListValue: []
+      Priority:
+        ListStatus: 
+        ListValue: []
+      PositionAnchor:
+        ListStatus: 
+      SizeForce:
+        ListStatus: 
+      UserData:
+        ListStatus: 
+        ListValue: []
+      Instance:
+        ListStatus: 
+        ListValue: []
+      Effect:
+        ListStatus: 
+        ListValue: []
+      DataPlain:
+        Cell:
+          ListStatus: 
+          ListValue: []
+        ColorBlend:
+          ListStatus: 
+          ListValue: []
+        VertexCorrection:
+          ListStatus: 
+          ListValue: []
+        OffsetPivot:
+          ListStatus: 
+          ListValue: []
+        PositionTexture:
+          ListStatus: 
+          ListValue: []
+        ScalingTexture:
+          ListStatus: 
+          ListValue: []
+        RotationTexture:
+          ListStatus: 
+          ListValue: []
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+      DataFix:
+        IndexCellMapMesh:
+          ListStatus: 
+          ListValue: 
+        CoordinateMesh:
+          ListStatus: 
+        ColorBlendMesh:
+          ListStatus: 
+        UV0Mesh:
+          ListStatus: 
+        SizeCollision:
+          ListStatus: 
+        PivotCollision:
+          ListStatus: 
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+    - KindFormat: 1
+      StatusParts: 0
+      Status:
+        ListStatus: 0000000001800000
+        ListValue:
+        - Flags: 262145
+        - Flags: 131073
+      Position:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: -1, z: 0}
+      Rotation:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: 0, z: 0}
+      Scaling:
+        ListStatus: 00000000018000000200010003800100040002000580020006000300
+      RateOpacity:
+        ListStatus: 0000000001800000020001000580000006000000
+        ListValue:
+        - 0
+        - 0.5
+        - 1
+      Priority:
+        ListStatus: 
+        ListValue: []
+      PositionAnchor:
+        ListStatus: 
+      SizeForce:
+        ListStatus: 
+      UserData:
+        ListStatus: 
+        ListValue: []
+      Instance:
+        ListStatus: 
+        ListValue: []
+      Effect:
+        ListStatus: 
+        ListValue: []
+      DataPlain:
+        Cell:
+          ListStatus: 
+          ListValue: []
+        ColorBlend:
+          ListStatus: 
+          ListValue: []
+        VertexCorrection:
+          ListStatus: 
+          ListValue: []
+        OffsetPivot:
+          ListStatus: 
+          ListValue: []
+        PositionTexture:
+          ListStatus: 
+          ListValue: []
+        ScalingTexture:
+          ListStatus: 
+          ListValue: []
+        RotationTexture:
+          ListStatus: 
+          ListValue: []
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+      DataFix:
+        IndexCellMapMesh:
+          ListStatus: 00000000
+          ListValue: 00000000
+        CoordinateMesh:
+          ListStatus: 00000000018000000200010003800100040002000580020006000300
+        ColorBlendMesh:
+          ListStatus: 0000000001800000020001000580000006000000
+        UV0Mesh:
+          ListStatus: 00000000
+        SizeCollision:
+          ListStatus: 
+        PivotCollision:
+          ListStatus: 
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+    - KindFormat: 1
+      StatusParts: 0
+      Status:
+        ListStatus: 000000000180000002000100
+        ListValue:
+        - Flags: 131
+        - Flags: 262145
+        - Flags: 196609
+      Position:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: -4, z: 0}
+      Rotation:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: 0, z: 0}
+      Scaling:
+        ListStatus: 00800300020004000380040004000500058005000600060007800600
+      RateOpacity:
+        ListStatus: 0000000002800000030001000680000007000000
+        ListValue:
+        - 0
+        - 0.5
+        - 1
+      Priority:
+        ListStatus: 
+        ListValue: []
+      PositionAnchor:
+        ListStatus: 
+      SizeForce:
+        ListStatus: 
+      UserData:
+        ListStatus: 
+        ListValue: []
+      Instance:
+        ListStatus: 
+        ListValue: []
+      Effect:
+        ListStatus: 
+        ListValue: []
+      DataPlain:
+        Cell:
+          ListStatus: 
+          ListValue: []
+        ColorBlend:
+          ListStatus: 
+          ListValue: []
+        VertexCorrection:
+          ListStatus: 
+          ListValue: []
+        OffsetPivot:
+          ListStatus: 
+          ListValue: []
+        PositionTexture:
+          ListStatus: 
+          ListValue: []
+        ScalingTexture:
+          ListStatus: 
+          ListValue: []
+        RotationTexture:
+          ListStatus: 
+          ListValue: []
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+      DataFix:
+        IndexCellMapMesh:
+          ListStatus: 00000000
+          ListValue: 00000000
+        CoordinateMesh:
+          ListStatus: 00800300020004000380040004000500058005000600060007800600
+        ColorBlendMesh:
+          ListStatus: 0080010002000200038002000600020007800100
+        UV0Mesh:
+          ListStatus: 0080000001000100
+        SizeCollision:
+          ListStatus: 
+        PivotCollision:
+          ListStatus: 
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+    - KindFormat: 1
+      StatusParts: 0
+      Status:
+        ListStatus: 0000000002800000
+        ListValue:
+        - Flags: 131
+        - Flags: 262145
+      Position:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: -6, z: 0}
+      Rotation:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: 0, z: 0}
+      Scaling:
+        ListStatus: 00000700
+      RateOpacity:
+        ListStatus: 0000000003800000040001000780000008000000
+        ListValue:
+        - 0
+        - 0.5
+        - 1
+      Priority:
+        ListStatus: 
+        ListValue: []
+      PositionAnchor:
+        ListStatus: 
+      SizeForce:
+        ListStatus: 
+      UserData:
+        ListStatus: 
+        ListValue: []
+      Instance:
+        ListStatus: 
+        ListValue: []
+      Effect:
+        ListStatus: 
+        ListValue: []
+      DataPlain:
+        Cell:
+          ListStatus: 
+          ListValue: []
+        ColorBlend:
+          ListStatus: 
+          ListValue: []
+        VertexCorrection:
+          ListStatus: 
+          ListValue: []
+        OffsetPivot:
+          ListStatus: 
+          ListValue: []
+        PositionTexture:
+          ListStatus: 
+          ListValue: []
+        ScalingTexture:
+          ListStatus: 
+          ListValue: []
+        RotationTexture:
+          ListStatus: 
+          ListValue: []
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+      DataFix:
+        IndexCellMapMesh:
+          ListStatus: 00000000
+          ListValue: 00000000
+        CoordinateMesh:
+          ListStatus: 00800300030007000480070005000800068008000700090008800900
+        ColorBlendMesh:
+          ListStatus: 0000030003800300040004000780030008000300
+        UV0Mesh:
+          ListStatus: 0080000002000100
+        SizeCollision:
+          ListStatus: 
+        PivotCollision:
+          ListStatus: 
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+    - KindFormat: 1
+      StatusParts: 0
+      Status:
+        ListStatus: 0000000002800000
+        ListValue:
+        - Flags: 1
+        - Flags: 327681
+      Position:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: -1, z: 0}
+      Rotation:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: 0, z: 0}
+      Scaling:
+        ListStatus: 008007000100080002800800030009000480090005000a0006800a0007000b0008800b00
+      RateOpacity:
+        ListStatus: 000000000180000002000100038001000400020005800000068002000700030008000000
+        ListValue:
+        - 0
+        - 0.5
+        - 1
+        - 0.8333333
+        - 0.6666666
+        - 0.3333333
+        - 0.16666669
+      Priority:
+        ListStatus: 
+        ListValue: []
+      PositionAnchor:
+        ListStatus: 
+      SizeForce:
+        ListStatus: 
+      UserData:
+        ListStatus: 
+        ListValue: []
+      Instance:
+        ListStatus: 
+        ListValue: []
+      Effect:
+        ListStatus: 
+        ListValue: []
+      DataPlain:
+        Cell:
+          ListStatus: 
+          ListValue: []
+        ColorBlend:
+          ListStatus: 
+          ListValue: []
+        VertexCorrection:
+          ListStatus: 
+          ListValue: []
+        OffsetPivot:
+          ListStatus: 
+          ListValue: []
+        PositionTexture:
+          ListStatus: 
+          ListValue: []
+        ScalingTexture:
+          ListStatus: 
+          ListValue: []
+        RotationTexture:
+          ListStatus: 
+          ListValue: []
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+      DataFix:
+        IndexCellMapMesh:
+          ListStatus: 00000000
+          ListValue: 00000000
+        CoordinateMesh:
+          ListStatus: 00000a00
+        ColorBlendMesh:
+          ListStatus: 008004000100050002800500030006000480060005000500060007000780070008800400
+        UV0Mesh:
+          ListStatus: 00800100
+        SizeCollision:
+          ListStatus: 
+        PivotCollision:
+          ListStatus: 
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+    - KindFormat: 1
+      StatusParts: 0
+      Status:
+        ListStatus: 0000000002800000
+        ListValue:
+        - Flags: 131
+        - Flags: 1
+      Position:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0.41666698, y: -18.166664, z: 0}
+      Rotation:
+        ListStatus: 00000000
+        ListValue:
+        - {x: 0, y: 0, z: 0}
+      Scaling:
+        ListStatus: 00000c0003800c0004000d0005800d0006000e0007800e0008000f0009800f00
+      RateOpacity:
+        ListStatus: 0000000006800000070001000880010009000200
+        ListValue:
+        - 1
+        - 0.7625
+        - 0.52500004
+        - 0.28750002
+        - 0.05000002
+      Priority:
+        ListStatus: 
+        ListValue: []
+      PositionAnchor:
+        ListStatus: 
+      SizeForce:
+        ListStatus: 
+      UserData:
+        ListStatus: 
+        ListValue: []
+      Instance:
+        ListStatus: 
+        ListValue: []
+      Effect:
+        ListStatus: 
+        ListValue: []
+      DataPlain:
+        Cell:
+          ListStatus: 
+          ListValue: []
+        ColorBlend:
+          ListStatus: 
+          ListValue: []
+        VertexCorrection:
+          ListStatus: 
+          ListValue: []
+        OffsetPivot:
+          ListStatus: 
+          ListValue: []
+        PositionTexture:
+          ListStatus: 
+          ListValue: []
+        ScalingTexture:
+          ListStatus: 
+          ListValue: []
+        RotationTexture:
+          ListStatus: 
+          ListValue: []
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+      DataFix:
+        IndexCellMapMesh:
+          ListStatus: 00000000
+          ListValue: 00000000
+        CoordinateMesh:
+          ListStatus: 00800a00
+        ColorBlendMesh:
+          ListStatus: 0000080006800800070009000880090009000a00
+        UV0Mesh:
+          ListStatus: 0000020002800200
+        SizeCollision:
+          ListStatus: 
+        PivotCollision:
+          ListStatus: 
+        RadiusCollision:
+          ListStatus: 
+          ListValue: []
+  Flyweight:
+    vector2s:
+    - {x: 1.9553571, y: 0.14062499}
+    - {x: 1.9553571, y: 0.15679577}
+    - {x: 1.9553571, y: 0.17296657}
+    - {x: 1.9553571, y: 0.18913735}
+    - {x: 1.9553571, y: 0.20530814}
+    - {x: 1.9553571, y: 0.22147894}
+    - {x: 1.9553571, y: 0.23764972}
+    - {x: 2.5446427, y: 0.14062499}
+    - {x: 2.5446427, y: 0.15280376}
+    - {x: 2.5446427, y: 0.16498253}
+    - {x: 2.5446427, y: 0.1771613}
+    - {x: 2.5446427, y: 0.18934008}
+    - {x: 2.5446427, y: 0.20151885}
+    - {x: 2.5446427, y: 0.21369763}
+    - {x: 3.125, y: 0.14062499}
+    - {x: 0.13476562, y: 0.0625}
+    - {x: 0.2319336, y: 0.08105469}
+    - {x: 0.32910156, y: 0.099609375}
+    - {x: 0.42626956, y: 0.11816406}
+    - {x: 0.5234375, y: 0.13671875}
+    - {x: 0.6206055, y: 0.15527344}
+    - {x: 0.7177735, y: 0.17382812}
+    - {x: 0.81494147, y: 0.19238281}
+    - {x: 0.91210943, y: 0.2109375}
+    - {x: 0.36029413, y: 0.4062501}
+    - {x: 0.40441176, y: 0.41294652}
+    - {x: 0.44852942, y: 0.41964296}
+    - {x: 0.49264705, y: 0.4263394}
+    - {x: 0.5367647, y: 0.4330358}
+    - {x: 0.5808824, y: 0.43973222}
+    - {x: 0.625, y: 0.44642866}
+    - {x: 0.6691176, y: 0.4531251}
+    coordinateMeshFixes:
+    - Coordinate:
+      - {x: -32, y: 120, z: 0}
+      - {x: 32, y: 120, z: 0}
+      - {x: 24, y: -8, z: 0}
+      - {x: -24, y: 6, z: 0}
+      - {x: 0, y: 59.5, z: 0}
+    - Coordinate:
+      - {x: -27.5, y: 266.83334, z: 0}
+      - {x: 27.666666, y: 266.83334, z: 0}
+      - {x: 20.5, y: -8, z: 0}
+      - {x: -20.333332, y: 6, z: 0}
+      - {x: 0.08333349, y: 132.91667, z: 0}
+    - Coordinate:
+      - {x: -23, y: 413.6667, z: 0}
+      - {x: 23.333332, y: 413.6667, z: 0}
+      - {x: 17, y: -8, z: 0}
+      - {x: -16.666666, y: 6, z: 0}
+      - {x: 0.16666651, y: 206.33334, z: 0}
+    - Coordinate:
+      - {x: -18.5, y: 560.5, z: 0}
+      - {x: 19, y: 560.5, z: 0}
+      - {x: 13.5, y: -8, z: 0}
+      - {x: -13, y: 6, z: 0}
+      - {x: 0.25, y: 279.75, z: 0}
+    - Coordinate:
+      - {x: -14, y: 707.3334, z: 0}
+      - {x: 14.666666, y: 707.3334, z: 0}
+      - {x: 10, y: -8, z: 0}
+      - {x: -9.333332, y: 6, z: 0}
+      - {x: 0.3333335, y: 353.1667, z: 0}
+    - Coordinate:
+      - {x: -9.5, y: 854.1666, z: 0}
+      - {x: 10.333334, y: 854.1666, z: 0}
+      - {x: 6.5, y: -8, z: 0}
+      - {x: -5.666668, y: 6, z: 0}
+      - {x: 0.4166665, y: 426.5833, z: 0}
+    - Coordinate:
+      - {x: -5, y: 1001, z: 0}
+      - {x: 6, y: 1001, z: 0}
+      - {x: 3, y: -8, z: 0}
+      - {x: -2, y: 6, z: 0}
+      - {x: 0.5, y: 500, z: 0}
+    - Coordinate:
+      - {x: -32, y: 128, z: 0}
+      - {x: 32, y: 128, z: 0}
+      - {x: 24, y: 0, z: 0}
+      - {x: -24, y: 14, z: 0}
+      - {x: 0, y: 67.5, z: 0}
+    - Coordinate:
+      - {x: -29.833334, y: 265.33334, z: 0}
+      - {x: 29.833334, y: 265.33334, z: 0}
+      - {x: 20.5, y: 0, z: 0}
+      - {x: -20.333332, y: 14, z: 0}
+      - {x: 0.041666985, y: 136.16667, z: 0}
+    - Coordinate:
+      - {x: -27.666666, y: 402.6667, z: 0}
+      - {x: 27.666666, y: 402.6667, z: 0}
+      - {x: 17, y: 0, z: 0}
+      - {x: -16.666666, y: 14, z: 0}
+      - {x: 0.08333349, y: 204.83334, z: 0}
+    - Coordinate:
+      - {x: -25.5, y: 540, z: 0}
+      - {x: 25.5, y: 540, z: 0}
+      - {x: 13.5, y: 0, z: 0}
+      - {x: -13, y: 14, z: 0}
+      - {x: 0.125, y: 273.5, z: 0}
+    - Coordinate:
+      - {x: -23.333332, y: 677.3334, z: 0}
+      - {x: 23.333332, y: 677.3334, z: 0}
+      - {x: 10, y: 0, z: 0}
+      - {x: -9.333332, y: 14, z: 0}
+      - {x: 0.16666698, y: 342.1667, z: 0}
+    - Coordinate:
+      - {x: -21.166668, y: 814.6666, z: 0}
+      - {x: 21.166668, y: 814.6666, z: 0}
+      - {x: 6.5, y: 0, z: 0}
+      - {x: -5.666668, y: 14, z: 0}
+      - {x: 0.20833302, y: 410.8333, z: 0}
+    - Coordinate:
+      - {x: -19, y: 952, z: 0}
+      - {x: 19, y: 952, z: 0}
+      - {x: 3, y: 0, z: 0}
+      - {x: -2, y: 14, z: 0}
+      - {x: 0.25, y: 479.5, z: 0}
+    - Coordinate:
+      - {x: -29.166666, y: 274.83334, z: 0}
+      - {x: 29.166666, y: 274.83334, z: 0}
+      - {x: 20.5, y: 0, z: 0}
+      - {x: -20.333332, y: 14, z: 0}
+      - {x: 0.041666985, y: 140.91667, z: 0}
+    - Coordinate:
+      - {x: -26.333332, y: 421.6667, z: 0}
+      - {x: 26.333332, y: 421.6667, z: 0}
+      - {x: 17, y: 0, z: 0}
+      - {x: -16.666666, y: 14, z: 0}
+      - {x: 0.08333349, y: 214.33334, z: 0}
+    - Coordinate:
+      - {x: -23.5, y: 568.5, z: 0}
+      - {x: 23.5, y: 568.5, z: 0}
+      - {x: 13.5, y: 0, z: 0}
+      - {x: -13, y: 14, z: 0}
+      - {x: 0.125, y: 287.75, z: 0}
+    - Coordinate:
+      - {x: -20.666666, y: 715.3334, z: 0}
+      - {x: 20.666666, y: 715.3334, z: 0}
+      - {x: 10, y: 0, z: 0}
+      - {x: -9.333332, y: 14, z: 0}
+      - {x: 0.16666698, y: 361.1667, z: 0}
+    - Coordinate:
+      - {x: -17.833334, y: 862.1666, z: 0}
+      - {x: 17.833334, y: 862.1666, z: 0}
+      - {x: 6.5, y: 0, z: 0}
+      - {x: -5.666668, y: 14, z: 0}
+      - {x: 0.20833302, y: 434.5833, z: 0}
+    - Coordinate:
+      - {x: -15, y: 1009, z: 0}
+      - {x: 15, y: 1009, z: 0}
+      - {x: 3, y: 0, z: 0}
+      - {x: -2, y: 14, z: 0}
+      - {x: 0.25, y: 508, z: 0}
+    - Coordinate:
+      - {x: -128, y: 64, z: 0}
+      - {x: 128, y: 64, z: 0}
+      - {x: 128, y: -64, z: 0}
+      - {x: -128, y: -64, z: 0}
+    - Coordinate:
+      - {x: -180, y: 126, z: 0}
+      - {x: 191, y: 128, z: 0}
+      - {x: 114, y: 17, z: 0}
+      - {x: -117, y: 19, z: 0}
+      - {x: 2, y: 72.5, z: 0}
+    colorMeshFixes:
+    - UV:
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+    - UV:
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+    - UV:
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+      - serializedVersion: 2
+        rgba: 4293780224
+    - UV:
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      - {x: 0, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+    - UV:
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      - {x: 0.5, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+    - UV:
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+      - serializedVersion: 2
+        rgba: 2900045056
+    - UV:
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      - {x: 0, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      - {x: 0.5, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      - {x: 1, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0.8333333, y: 0.01}
+      - {x: 0.8333333, y: 0.01}
+      - {x: 0.8333333, y: 0.01}
+      - {x: 0.8333333, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0.6666666, y: 0.01}
+      - {x: 0.6666666, y: 0.01}
+      - {x: 0.6666666, y: 0.01}
+      - {x: 0.6666666, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0.3333333, y: 0.01}
+      - {x: 0.3333333, y: 0.01}
+      - {x: 0.3333333, y: 0.01}
+      - {x: 0.3333333, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 0.16666669, y: 0.01}
+      - {x: 0.16666669, y: 0.01}
+      - {x: 0.16666669, y: 0.01}
+      - {x: 0.16666669, y: 0.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+      - serializedVersion: 2
+        rgba: 4294967295
+    - UV:
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      - {x: 1, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+    - UV:
+      - {x: 0.7625, y: 1.01}
+      - {x: 0.7625, y: 1.01}
+      - {x: 0.7625, y: 1.01}
+      - {x: 0.7625, y: 1.01}
+      - {x: 0.7625, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+    - UV:
+      - {x: 0.52500004, y: 1.01}
+      - {x: 0.52500004, y: 1.01}
+      - {x: 0.52500004, y: 1.01}
+      - {x: 0.52500004, y: 1.01}
+      - {x: 0.52500004, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+    - UV:
+      - {x: 0.28750002, y: 1.01}
+      - {x: 0.28750002, y: 1.01}
+      - {x: 0.28750002, y: 1.01}
+      - {x: 0.28750002, y: 1.01}
+      - {x: 0.28750002, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+    - UV:
+      - {x: 0.05000002, y: 1.01}
+      - {x: 0.05000002, y: 1.01}
+      - {x: 0.05000002, y: 1.01}
+      - {x: 0.05000002, y: 1.01}
+      - {x: 0.05000002, y: 1.01}
+      ColorOverlay:
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+      - serializedVersion: 2
+        rgba: 4287371776
+    uvMeshFixes:
+    - UV:
+      - {x: 0.9375, y: 0.125}
+      - {x: 1, y: 0.125}
+      - {x: 1, y: 0}
+      - {x: 0.9375, y: 0}
+      - {x: 0.96875, y: 0.0625}
+    - UV:
+      - {x: 0.875, y: 0}
+      - {x: 0.9375, y: 0}
+      - {x: 0.9375, y: 0.125}
+      - {x: 0.875, y: 0.125}
+      - {x: 0.90625, y: 0.0625}
+    - UV:
+      - {x: 0.875, y: 0.125}
+      - {x: 0.9375, y: 0.125}
+      - {x: 0.9375, y: 0}
+      - {x: 0.875, y: 0}
+      - {x: 0.90625, y: 0.0625}
+    - UV:
+      - {x: 0.25, y: 0.125}
+      - {x: 0.5, y: 0.125}
+      - {x: 0.5, y: 0}
+      - {x: 0.25, y: 0}
+    - UV:
+      - {x: 0.484375, y: 0}
+      - {x: 0.75, y: 0}
+      - {x: 0.75, y: 0.125}
+      - {x: 0.484375, y: 0.125}
+      - {x: 0.6171875, y: 0.0625}
+    - UV:
+      - {x: 0.484375, y: 0.125}
+      - {x: 0.75, y: 0.125}
+      - {x: 0.75, y: 0}
+      - {x: 0.484375, y: 0}
+      - {x: 0.6171875, y: 0.0625}

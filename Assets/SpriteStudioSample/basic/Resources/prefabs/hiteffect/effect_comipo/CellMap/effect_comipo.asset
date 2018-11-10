@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c3e2fd293409448b70e6699a65a249, type: 3}
+  m_Name: effect_comipo
+  m_EditorClassIdentifier: 
+  ListDataCellMap:
+  - Name: effect001
+    SizeOriginal: {x: 1024, y: 1024}
+    ListCell:
+    - Name: Ameba
+      Rectangle:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: Aurora
+      Rectangle:
+        serializedVersion: 2
+        x: 496
+        y: 896
+        width: 272
+        height: 128
+      Pivot: {x: 136, y: 128}
+    - Name: Ball
+      Rectangle:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: Bubble
+      Rectangle:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      Pivot: {x: 32, y: 32}
+    - Name: BurnFlash
+      Rectangle:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: BurnOut
+      Rectangle:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: Burner
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 64
+      Pivot: {x: 0, y: 32}
+    - Name: Capsule
+      Rectangle:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 128
+        height: 64
+      Pivot: {x: 64, y: 32}
+    - Name: Cloud
+      Rectangle:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 240
+        height: 128
+      Pivot: {x: 120, y: 64}
+    - Name: Comet
+      Rectangle:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 128
+      Pivot: {x: 28, y: 64}
+    - Name: Crescent
+      Rectangle:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: Flash
+      Rectangle:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: Halo
+      Rectangle:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: Hit
+      Rectangle:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: Jet
+      Rectangle:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 128
+      Pivot: {x: 32, y: 120}
+    - Name: Mist
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: Plainring
+      Rectangle:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: Ripple
+      Rectangle:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 256
+        height: 128
+      Pivot: {x: 128, y: 64}
+    - Name: Rises
+      Rectangle:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 128
+      Pivot: {x: 32, y: 128}
+    - Name: Slash
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 256
+      Pivot: {x: 32, y: 128}
+    - Name: Slashwhite
+      Rectangle:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 256
+      Pivot: {x: 32, y: 255}
+    - Name: "Smoke\r\n"
+      Rectangle:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 256
+      Pivot: {x: 64, y: 240.94118}
+    - Name: Sonicboom
+      Rectangle:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: Starbow
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 256
+        height: 64
+      Pivot: {x: 0, y: 32}
+    - Name: explosion
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: ice
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: lightball
+      Rectangle:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: lightline
+      Rectangle:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: lightling
+      Rectangle:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      Pivot: {x: 128, y: 128}
+    - Name: rock
+      Rectangle:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      Pivot: {x: 64, y: 64}
+    - Name: sakura
+      Rectangle:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      Pivot: {x: 32, y: 32}
+    - Name: thunder1
+      Rectangle:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 256
+      Pivot: {x: 32, y: 128}
+    - Name: thunder2
+      Rectangle:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 256
+      Pivot: {x: 32, y: 128}
+    - Name: thunder3
+      Rectangle:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 256
+      Pivot: {x: 32, y: 128}
+    - Name: thunder4
+      Rectangle:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 256
+      Pivot: {x: 32, y: 128}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c3e2fd293409448b70e6699a65a249, type: 3}
+  m_Name: Gage_Bar
+  m_EditorClassIdentifier: 
+  ListDataCellMap:
+  - Name: Gauge_Bar
+    SizeOriginal: {x: 256, y: 128}
+    ListCell:
+    - Name: Cover
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 208
+        height: 40
+      Pivot: {x: 4.000003, y: 20}
+    - Name: Bar
+      Rectangle:
+        serializedVersion: 2
+        x: 4
+        y: 40
+        width: 200
+        height: 40
+      Pivot: {x: 0, y: 20}
+    - Name: Base
+      Rectangle:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 208
+        height: 40
+      Pivot: {x: 4.000003, y: 20}
